@@ -1,0 +1,43 @@
+{
+    "name": "nodejs-learning",
+    "version": "1.0.0",
+    "description": "",
+    "main": ".eslintrc.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.12.1",
+        "eslint": "7.2.0",
+        "eslint-config-airbnb": "18.2.1",
+        "eslint-config-prettier": "^7.0.0",
+        "eslint-plugin-import": "2.22.1",
+        "eslint-plugin-jsx-a11y": "6.4.1",
+        "eslint-plugin-prettier": "^3.3.0",
+        "eslint-plugin-react": "7.21.5",
+        "eslint-plugin-react-hooks": "4.0.0",
+        "prettier": "^2.2.1"
+    },
+    "dependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "@grpc/grpc-js": "^1.2.2",
+        "@grpc/proto-loader": "^0.5.5",
+        "fastify": "^3.9.2",
+        "fastify-gql": "^5.8.2",
+        "graphql": "^15.4.0",
+        "node-fetch": "^2.6.1",
+        "pg": "^8.5.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dlrandy/nodejs-learning.git"
+    },
+    "keywords": [],
+    "author": "dlrandy <ziyucrc@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dlrandy/nodejs-learning/issues"
+    },
+    "homepage": "https://github.com/dlrandy/nodejs-learning#readme"
+}
