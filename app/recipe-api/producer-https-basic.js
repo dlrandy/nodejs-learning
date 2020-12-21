@@ -4,10 +4,10 @@ const path = require('path');
 const server = require('fastify')({
     https: {
         key: fs.readFileSync(
-            path.resolve(`${__dirname}/tls/basic-private-key.key`)
+            path.resolve(`${__dirname}/tls/producer-private-key.key`)
         ),
         cert: fs.readFileSync(
-            path.resolve(`${__dirname}/../shared/tls/basic-certificate.cert`)
+            path.resolve(`${__dirname}/../shared/tls/producer-certificate.cert`)
         ),
     },
 });
