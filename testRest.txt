@@ -1,2 +1,1 @@
-GET http://localhost:1337/
-Accept-Encoding:gzip
+GET http://localhost:3020/
