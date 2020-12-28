@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 function findRegex(files, regex) {
     const emitter = new EventEmitter();
-    const promises = files.map((file) =>
+    files.forEach((file) =>
         readFile(join(__dirname, file), 'utf-8', (err, data) => {
             if (err) {
                 return emitter.emit('error', err);

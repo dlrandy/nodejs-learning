@@ -26,6 +26,7 @@
         "autocannon": "^7.0.1",
         "fastify": "^3.9.2",
         "fastify-gql": "^5.8.2",
+        "glob": "^7.1.6",
         "graphql": "^15.4.0",
         "node-fetch": "^2.6.1",
         "pg": "^8.5.1"
