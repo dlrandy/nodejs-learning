@@ -24,12 +24,16 @@
         "@grpc/grpc-js": "^1.2.2",
         "@grpc/proto-loader": "^0.5.5",
         "autocannon": "^7.0.1",
+        "cheerio": "^1.0.0-rc.5",
         "fastify": "^3.9.2",
         "fastify-gql": "^5.8.2",
         "glob": "^7.1.6",
         "graphql": "^15.4.0",
+        "mkdirp": "^1.0.4",
         "node-fetch": "^2.6.1",
-        "pg": "^8.5.1"
+        "pg": "^8.5.1",
+        "slug": "^4.0.2",
+        "superagent": "^6.1.0"
     },
     "repository": {
         "type": "git",
