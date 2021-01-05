@@ -1,13 +1,15 @@
 /* eslint-disable import/prefer-default-export */
+/* eslint-disable no-unused-vars */
 import path from 'path';
+
 import { URL } from 'url';
+
 import slug from 'slug';
 import cheerio from 'cheerio';
 
 function getLinkUrl(currentUrl, element) {
     const parsedLink = new URL(element.attribs.href || '', currentUrl);
     const currentParsedUrl = new URL(currentUrl);
-
     if (
         parsedLink.hostname !== currentParsedUrl.hostname ||
         !parsedLink.pathname
