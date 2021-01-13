@@ -1,0 +1,224 @@
+{
+    "NAME": "NODEJS-LEARNING",
+    "VERSION": "1.0.0",
+    "DESCRIPTION": "",
+    "MAIN": ".ESLINTRC.JS",
+    "SCRIPTS": {
+        "TEST": "ECHO \"ERROR: NO TEST SPECIFIED\" && EXIT 1"
+    },
+    "DEVDEPENDENCIES": {
+        "@BABEL/ESLINT-PARSER": "^7.12.1",
+        "ESLINT": "7.2.0",
+        "ESLINT-CONFIG-AIRBNB": "18.2.1",
+        "ESLINT-CONFIG-PRETTIER": "^7.0.0",
+        "ESLINT-PLUGIN-IMPORT": "2.22.1",
+        "ESLINT-PLUGIN-JSX-A11Y": "6.4.1",
+        "ESLINT-PLUGIN-PRETTIER": "^3.3.0",
+        "ESLINT-PLUGIN-REACT": "7.21.5",
+        "ESLINT-PLUGIN-REACT-HOOKS": "4.0.0",
+        "PRETTIER": "^2.2.1"
+    },
+    "DEPENDENCIES": {
+        "@BABEL/CORE": "^7.12.10",
+        "@BABEL/PRESET-ENV": "^7.12.11",
+        "@GRPC/GRPC-JS": "^1.2.2",
+        "@GRPC/PROTO-LOADER": "^0.5.5",
+        "AUTOCANNON": "^7.0.1",
+        "AXIOS": "^0.21.1",
+        "CHANCE": "^1.1.7",
+        "CHEERIO": "^1.0.0-RC.5",
+        "CSV-PARSE": "^4.14.2",
+        "FASTIFY": "^3.9.2",
+        "FASTIFY-GQL": "^5.8.2",
+        "GLOB": "^7.1.6",
+        "GRAPHQL": "^15.4.0",
+        "LAZYSTREAM": "^1.0.0",
+        "MKDIRP": "^1.0.4",
+        "MKDIRP-PROMISE": "^5.0.1",
+        "NODE-FETCH": "^2.6.1",
+        "PARALLEL-TRANSFORM": "^1.2.0",
+        "PG": "^8.5.1",
+        "SLUG": "^4.0.2",
+        "SPLIT": "^1.0.1",
+        "SUPERAGENT": "^6.1.0"
+    },
+    "REPOSITORY": {
+        "TYPE": "GIT",
+        "URL": "GIT+HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING.GIT"
+    },
+    "KEYWORDS": [],
+    "AUTHOR": "DLRANDY <ZIYUCRC@GMAIL.COM>",
+    "LICENSE": "ISC",
+    "BUGS": {
+        "URL": "HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING/ISSUES"
+    },
+    "HOMEPAGE": "HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING#README"
+}
+{
+    "NAME": "NODEJS-LEARNING",
+    "VERSION": "1.0.0",
+    "DESCRIPTION": "",
+    "MAIN": ".ESLINTRC.JS",
+    "SCRIPTS": {
+        "TEST": "ECHO \"ERROR: NO TEST SPECIFIED\" && EXIT 1"
+    },
+    "DEVDEPENDENCIES": {
+        "@BABEL/ESLINT-PARSER": "^7.12.1",
+        "ESLINT": "7.2.0",
+        "ESLINT-CONFIG-AIRBNB": "18.2.1",
+        "ESLINT-CONFIG-PRETTIER": "^7.0.0",
+        "ESLINT-PLUGIN-IMPORT": "2.22.1",
+        "ESLINT-PLUGIN-JSX-A11Y": "6.4.1",
+        "ESLINT-PLUGIN-PRETTIER": "^3.3.0",
+        "ESLINT-PLUGIN-REACT": "7.21.5",
+        "ESLINT-PLUGIN-REACT-HOOKS": "4.0.0",
+        "PRETTIER": "^2.2.1"
+    },
+    "DEPENDENCIES": {
+        "@BABEL/CORE": "^7.12.10",
+        "@BABEL/PRESET-ENV": "^7.12.11",
+        "@GRPC/GRPC-JS": "^1.2.2",
+        "@GRPC/PROTO-LOADER": "^0.5.5",
+        "AUTOCANNON": "^7.0.1",
+        "AXIOS": "^0.21.1",
+        "CHANCE": "^1.1.7",
+        "CHEERIO": "^1.0.0-RC.5",
+        "CSV-PARSE": "^4.14.2",
+        "FASTIFY": "^3.9.2",
+        "FASTIFY-GQL": "^5.8.2",
+        "GLOB": "^7.1.6",
+        "GRAPHQL": "^15.4.0",
+        "LAZYSTREAM": "^1.0.0",
+        "MKDIRP": "^1.0.4",
+        "MKDIRP-PROMISE": "^5.0.1",
+        "NODE-FETCH": "^2.6.1",
+        "PARALLEL-TRANSFORM": "^1.2.0",
+        "PG": "^8.5.1",
+        "SLUG": "^4.0.2",
+        "SPLIT": "^1.0.1",
+        "SUPERAGENT": "^6.1.0"
+    },
+    "REPOSITORY": {
+        "TYPE": "GIT",
+        "URL": "GIT+HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING.GIT"
+    },
+    "KEYWORDS": [],
+    "AUTHOR": "DLRANDY <ZIYUCRC@GMAIL.COM>",
+    "LICENSE": "ISC",
+    "BUGS": {
+        "URL": "HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING/ISSUES"
+    },
+    "HOMEPAGE": "HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING#README"
+}
+{
+    "NAME": "NODEJS-LEARNING",
+    "VERSION": "1.0.0",
+    "DESCRIPTION": "",
+    "MAIN": ".ESLINTRC.JS",
+    "SCRIPTS": {
+        "TEST": "ECHO \"ERROR: NO TEST SPECIFIED\" && EXIT 1"
+    },
+    "DEVDEPENDENCIES": {
+        "@BABEL/ESLINT-PARSER": "^7.12.1",
+        "ESLINT": "7.2.0",
+        "ESLINT-CONFIG-AIRBNB": "18.2.1",
+        "ESLINT-CONFIG-PRETTIER": "^7.0.0",
+        "ESLINT-PLUGIN-IMPORT": "2.22.1",
+        "ESLINT-PLUGIN-JSX-A11Y": "6.4.1",
+        "ESLINT-PLUGIN-PRETTIER": "^3.3.0",
+        "ESLINT-PLUGIN-REACT": "7.21.5",
+        "ESLINT-PLUGIN-REACT-HOOKS": "4.0.0",
+        "PRETTIER": "^2.2.1"
+    },
+    "DEPENDENCIES": {
+        "@BABEL/CORE": "^7.12.10",
+        "@BABEL/PRESET-ENV": "^7.12.11",
+        "@GRPC/GRPC-JS": "^1.2.2",
+        "@GRPC/PROTO-LOADER": "^0.5.5",
+        "AUTOCANNON": "^7.0.1",
+        "AXIOS": "^0.21.1",
+        "CHANCE": "^1.1.7",
+        "CHEERIO": "^1.0.0-RC.5",
+        "CSV-PARSE": "^4.14.2",
+        "FASTIFY": "^3.9.2",
+        "FASTIFY-GQL": "^5.8.2",
+        "GLOB": "^7.1.6",
+        "GRAPHQL": "^15.4.0",
+        "LAZYSTREAM": "^1.0.0",
+        "MKDIRP": "^1.0.4",
+        "MKDIRP-PROMISE": "^5.0.1",
+        "NODE-FETCH": "^2.6.1",
+        "PARALLEL-TRANSFORM": "^1.2.0",
+        "PG": "^8.5.1",
+        "SLUG": "^4.0.2",
+        "SPLIT": "^1.0.1",
+        "SUPERAGENT": "^6.1.0"
+    },
+    "REPOSITORY": {
+        "TYPE": "GIT",
+        "URL": "GIT+HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING.GIT"
+    },
+    "KEYWORDS": [],
+    "AUTHOR": "DLRANDY <ZIYUCRC@GMAIL.COM>",
+    "LICENSE": "ISC",
+    "BUGS": {
+        "URL": "HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING/ISSUES"
+    },
+    "HOMEPAGE": "HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING#README"
+}
+{
+    "NAME": "NODEJS-LEARNING",
+    "VERSION": "1.0.0",
+    "DESCRIPTION": "",
+    "MAIN": ".ESLINTRC.JS",
+    "SCRIPTS": {
+        "TEST": "ECHO \"ERROR: NO TEST SPECIFIED\" && EXIT 1"
+    },
+    "DEVDEPENDENCIES": {
+        "@BABEL/ESLINT-PARSER": "^7.12.1",
+        "ESLINT": "7.2.0",
+        "ESLINT-CONFIG-AIRBNB": "18.2.1",
+        "ESLINT-CONFIG-PRETTIER": "^7.0.0",
+        "ESLINT-PLUGIN-IMPORT": "2.22.1",
+        "ESLINT-PLUGIN-JSX-A11Y": "6.4.1",
+        "ESLINT-PLUGIN-PRETTIER": "^3.3.0",
+        "ESLINT-PLUGIN-REACT": "7.21.5",
+        "ESLINT-PLUGIN-REACT-HOOKS": "4.0.0",
+        "PRETTIER": "^2.2.1"
+    },
+    "DEPENDENCIES": {
+        "@BABEL/CORE": "^7.12.10",
+        "@BABEL/PRESET-ENV": "^7.12.11",
+        "@GRPC/GRPC-JS": "^1.2.2",
+        "@GRPC/PROTO-LOADER": "^0.5.5",
+        "AUTOCANNON": "^7.0.1",
+        "AXIOS": "^0.21.1",
+        "CHANCE": "^1.1.7",
+        "CHEERIO": "^1.0.0-RC.5",
+        "CSV-PARSE": "^4.14.2",
+        "FASTIFY": "^3.9.2",
+        "FASTIFY-GQL": "^5.8.2",
+        "GLOB": "^7.1.6",
+        "GRAPHQL": "^15.4.0",
+        "LAZYSTREAM": "^1.0.0",
+        "MKDIRP": "^1.0.4",
+        "MKDIRP-PROMISE": "^5.0.1",
+        "NODE-FETCH": "^2.6.1",
+        "PARALLEL-TRANSFORM": "^1.2.0",
+        "PG": "^8.5.1",
+        "SLUG": "^4.0.2",
+        "SPLIT": "^1.0.1",
+        "SUPERAGENT": "^6.1.0"
+    },
+    "REPOSITORY": {
+        "TYPE": "GIT",
+        "URL": "GIT+HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING.GIT"
+    },
+    "KEYWORDS": [],
+    "AUTHOR": "DLRANDY <ZIYUCRC@GMAIL.COM>",
+    "LICENSE": "ISC",
+    "BUGS": {
+        "URL": "HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING/ISSUES"
+    },
+    "HOMEPAGE": "HTTPS://GITHUB.COM/DLRANDY/NODEJS-LEARNING#README"
+}

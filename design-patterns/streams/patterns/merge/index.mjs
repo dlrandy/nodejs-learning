@@ -1,0 +1,26 @@
+/* eslint-disable no-loop-func */
+/* eslint-disable no-restricted-syntax */
+/* eslint-disable no-plusplus */
+import { createReadStream, createWriteStream } from 'fs';
+import split from 'split';
+
+const dest = process.argv[2];
+const sources = process.argv.slice(3);
+
+const destStrream = createWriteStream(dest);
+
+let endCount = 0;
+
+for (const source of sources) {
+    const sourceStream = createReadStream(source, { highWaterMark: 16 });
+    sourceStream.on('end', () => {
+        if (++endCount === sources.length) {
+            destStrream.end();
+            console.log(`${dest} created`);
+        }
+    });
+
+    sourceStream
+        .pipe(split((line) => `${line}\n`))
+        .pipe(destStrream, { end: false });
+}
