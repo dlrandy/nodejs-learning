@@ -1,11 +1,11 @@
 import { promises as fsPromises } from 'fs';
 import { dirname } from 'path';
 import superagent from 'superagent';
-import mkdirp from 'mkdirp';
+import mkdirpPromises from 'mkdirp';
 import { urlToFilename, getPageLinks } from './utils.mjs';
 import { promisify } from 'util';
 
-const mkdirpPromises = promisify(mkdirp);
+// const mkdirpPromises = promisify(mkdirp);
 function download(url, filename) {
     console.log(`Download ${url}`);
     let content;

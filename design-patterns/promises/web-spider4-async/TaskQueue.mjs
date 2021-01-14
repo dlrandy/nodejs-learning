@@ -32,8 +32,9 @@ export class TaskQueue {
             if (this.consumerQueue.length !== 0) {
                 const consumer = this.consumerQueue.shift();
                 consumer(taskWrapper);
+            } else {
+                this.taskQueue.push(taskWrapper);
             }
-            this.taskQueue.push(taskWrapper);
         });
     }
 

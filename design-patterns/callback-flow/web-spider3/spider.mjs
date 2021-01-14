@@ -10,12 +10,13 @@ import mkdirp from 'mkdirp';
 import { urlToFilename, getPageLinks } from './utils.mjs';
 
 function saveFile(filename, contents, cb) {
-    mkdirp(path.dirname(filename), (err) => {
-        if (err) {
-            return cb(err);
-        }
+    try {
+        mkdirp.sync(path.dirname(filename));
+
         fs.writeFile(filename, contents, cb);
-    });
+    } catch (err) {
+        return cb(err);
+    }
 }
 
 function download(url, filename, cb) {

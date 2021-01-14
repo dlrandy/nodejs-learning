@@ -7,7 +7,7 @@ import { promisify } from 'util';
 import { urlToFilename, getPageLinks } from './utils.mjs';
 import { TaskQueue } from './TaskQueue.mjs';
 
-const mkdirpPromises = promisify(mkdirp);
+// const mkdirp = promisify(mkdirp);
 function download(url, filename) {
     console.log(`Download ${url}`);
     let content;
@@ -15,7 +15,7 @@ function download(url, filename) {
         .get(url)
         .then((res) => {
             content = res.text;
-            return mkdirpPromises(dirname(filename));
+            return mkdirp(dirname(filename));
         })
         .then(() => fsPromises.writeFile(filename, content))
         .then(() => {
@@ -43,6 +43,7 @@ export const spiderTask = (url, nesting, queue) => {
     if (spidering.has(url)) {
         return Promise.resolve();
     }
+    console.log(queue, 'queue');
     spidering.add(url);
     const filename = urlToFilename(url);
     return queue
@@ -54,7 +55,7 @@ export const spiderTask = (url, nesting, queue) => {
                 return download(url, filename);
             })
         )
-        .then((content) => spiderLinks(url, content, nesting));
+        .then((content) => spiderLinks(url, content, nesting, queue));
 };
 
 export const spider = (url, nesting, concurrency) => {
