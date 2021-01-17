@@ -42,6 +42,7 @@
         "pumpify": "^2.0.1",
         "slug": "^4.0.2",
         "split": "^1.0.1",
+        "sqlite3": "^5.0.1",
         "superagent": "^6.1.0"
     },
     "repository": {
