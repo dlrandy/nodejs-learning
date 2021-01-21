@@ -46,8 +46,10 @@
         "pumpify": "^2.0.1",
         "slug": "^4.0.2",
         "split": "^1.0.1",
+        "split2": "^3.2.2",
         "sqlite3": "^5.0.1",
-        "superagent": "^6.1.0"
+        "superagent": "^6.1.0",
+        "zeromq": "^6.0.0-beta.6"
     },
     "repository": {
         "type": "git",
